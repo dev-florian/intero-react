@@ -7,7 +7,6 @@ function App() {
   return (
     <div className="App">
         <Switch>
-            <Route exact path="/custom" component={Custom}/>
             <Route exact path="/" component={Preview}/>
         </Switch>
     </div>
